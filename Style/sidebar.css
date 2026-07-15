@@ -12,10 +12,7 @@
   z-index: 3;
   padding-top: 1px;
 }
- @media (max-width: 786px) {
-        .sidebar {
-        grid-template-columns: 1fr 1fr;
-        }
+ 
 .sidebar-link {
   display: flex;
   flex-direction: column;
