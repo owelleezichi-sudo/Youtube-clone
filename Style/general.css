@@ -1,0 +1,14 @@
+p {
+        font-family: Arial;
+        margin-top: 0px;
+        margin-bottom: 0px;
+}
+body {
+  margin: 0;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 100px;
+  padding-right: 20px;
+  background-color: rgb(238, 237, 237);
+  opacity: 3;
+}

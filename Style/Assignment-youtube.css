@@ -1,0 +1,575 @@
+ p {
+          font-family: Arial;
+        }
+        body {
+          padding-bottom: 1000px;
+        }
+      .my-image1 {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 8px;
+        object-position: center;
+        margin-bottom: 30px;
+      }
+
+      .my-image2 {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        vertical-align: middle;
+        margin-bottom: 30px;
+      }
+
+      .my-image3 {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 100px;
+      }
+      .text-box1 {
+        font-family: Arial;
+        font-size: 16px;
+        padding-bottom: 5px;
+        padding-top: 5px;
+        padding-left: 5px;
+        border-radius: 8px;
+        border-width: 1.5px;
+        opacity: 0.5;
+        margin-bottom: 30px;
+      }
+      .text-box2 {
+        font-family: Arial;
+        font-size: 13px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-left: 12px;
+        border-radius: 15px;
+        width: 500px;
+        border: none;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+        margin-bottom: 30px;
+      }
+      .email {
+        font-family: Arial;
+      }
+      .text-box3 {
+        width: 400px;
+        border-radius: 4px;
+        border-color: black;
+      }
+      .policy {
+        font-size: 12px;
+      }
+      .agree-button {
+        background-color: blue;
+        color: white;
+        width: 380px;
+        border: none;
+        border-radius: 18px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        margin-bottom: 30px;
+      }
+      .what {
+        display: flex;
+        align-items: center;
+      }
+      .name-box {
+        display: block;
+        margin-bottom: 3px;
+      }
+      .survey {
+        width: 300px;
+        display: inline-block;
+        border-color: red;
+      }
+      .yes,
+      .no {
+        margin-top: 20px;
+        vertical-align: top;
+        
+      }
+      .google-image {
+        width: 250px;
+        height: 150px;
+        object-fit: contain;
+        margin-bottom: 0px;
+        
+      }
+      .google-logo {
+        text-align: center;
+      }
+      .google-searchbox {
+        font-family: Arial;
+        font-size: 13px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-left: 12px;
+        border-radius: 15px;
+        width: 500px;
+        border: none;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+        margin-bottom: 30px;
+        margin-top: 0px;
+      }
+      .google-search {
+        text-align: center;
+      }
+      .first,
+      .surname {
+        border-radius: 8px;
+        border-width: 1px;
+        padding-left: 12px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        opacity: 0.15px;
+        margin-bottom: 10px;
+      }
+      .email {
+        display: block;
+        border-radius: 8px;
+        border-width: 1px;
+        width: 342px;
+        padding-left: 12px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        opacity: 0.15px;
+        margin-bottom: 10px;
+      }
+      .sign-up {
+        background-color: blue;
+        color: white;
+        font-weight: Bold;
+        width: 356px;
+        border: none;
+        border-radius: 6px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        cursor: pointer;
+      }
+      .ride {
+        font-size: 32px;
+        margin-bottom: 12px;
+        font-style: bold;
+        margin-left: 6px;
+      }
+      .location {
+        display: block;
+        background-color: rgb(232, 229, 229);
+        color: black;
+        font-weight: Bold;
+        border: none;
+        margin-bottom: 5px;
+        margin-left: 6px;
+        border-width: 1px;
+        width: 342px;
+        padding-left: 12px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        opacity: 0.15px;
+      }
+      .destination {
+        display: block;
+        background-color: rgb(232, 229, 229);
+        color: black;
+        font-weight: Bold;
+        border: none;
+        margin-bottom: 34px;
+        margin-left: 6px;
+        margin-right: 8px;
+        border-width: 1px;
+        width: 342px;
+        padding-left: 12px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        opacity: 0.15px;
+      } 
+      .request {
+        background-color: black;
+        color: white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 18px;
+        padding-right: 18px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 5px;
+        margin-left: 6px;
+      }
+      .schedule {
+        background-color: rgb(232, 229, 229);
+        color: black;
+        font-weight: bold;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border: none;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        cursor: pointer;
+      }
+      .exercise-eight {
+        display: block;
+        margin-top: 15px;
+        border: 1px solid black;
+        margin-bottom: 20px;
+        width: fit-content;
+      }
+      .square {
+        border: none;
+        display: inline-block;
+        height: 200px;
+        width: 200px;
+        background-color: red;
+        margin-bottom: 20px;
+      }
+      .circle {
+       border: none;
+        display: block;
+        height: 200px;
+        width: 200px;
+        background-color: Green;
+        border-radius: 100px; 
+      }
+      .satisfied {
+        font-weight: bold;
+      }
+      .yes2,
+      .no2  {
+        font-weight: bold;
+      }
+      .service {
+        border: 1px solid black;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        width: 300px;
+        margin-bottom: 30px;
+      }
+      .installing {
+        font-weight: bold;
+        font-size: larger;
+        margin-bottom: 8px;
+        color: white;
+      }
+      .adding {
+        font-size: smaller;
+        color: grey;
+        margin-top: 0px;
+      }
+      .youtube {
+        width: 300px;
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-bottom: 5px;
+        padding-right: 10px;
+        background-color: black;
+        margin-bottom: 30px;
+      }
+      .twitter-image {
+        width: 50px;
+        height: 50px;
+        border-radius: 25px;
+        object-fit: cover;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .twitter-text {
+        display: inline-block;
+        margin-left: 3px;
+      }
+      .twitter-button {
+        margin-left: 150px;
+        background-color: rgb(29,155, 240);
+        color: white;
+        border: none;
+        font-weight: bold;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-right: 12px;
+        padding-left: 8px;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: opacity 1.5s, box-shadow 1.5s;
+      }
+      .twitter-button:hover {
+        opacity: 0.5;
+        box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.17);
+      }
+      .twitter {
+        border: 1px solid black;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        width: 430px;
+        border-radius: 4px;
+        border: none;
+        box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.9);
+        margin-bottom: 30px;
+      }
+      .facebook-image {
+        border: none;
+        width: 100%;
+        object-fit: cover;
+        border: 1px solid black;
+      }
+      .name {
+        font-weight: bold;
+        margin-top: 2px;
+        margin-bottom: 0px;
+        padding-left: 4px;
+      }
+      .mutual {
+        font-size: smaller;
+        margin-top: 1px;
+        padding-left: 4px;
+        color: gray;
+      }
+      .facebook-button {
+        font-weight: bold;
+        color: white;
+        background-color: blue;
+        border: none;
+        border-radius: 3px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-left: 4px;
+        cursor: pointer;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.9);
+        transition: opacity 1.5s;
+      }
+      .facebook-button:hover {
+        opacity: 0.5;
+      }
+      .facebook-profile {
+        width: 100%;
+        border: 1px solid;
+        border: none;
+        
+        padding-bottom: 8px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+      }
+      .facebook-grid {
+        display: grid;
+        grid-template-columns: 150px 150px 150px;
+        column-gap: 15px;
+       }
+      .home {
+        vertical-align: top;
+        font-size: 16px;
+      }
+      .home14 {
+        background-color: rgb(43, 43, 155);
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 50px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .home-div {
+        
+        
+      }
+      .home14-div {
+        
+      }
+      .home-14-flex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 250px;
+      }
+      .all-home-div {
+        width: 270px;
+        border: 1px solid;
+        border-radius: 6px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+      
+      }
+      .home12 {
+        font-weight: bold;
+        color: white;
+        
+      }
+    .home12-div {
+      
+    }
+      .searchbox12 {
+        
+        flex: 1;
+        width: 360px;
+        font-family: Arial;
+        font-size: 13px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        padding-left: 12px;
+        border-radius: 15px;
+        border: none;
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+      }
+      .searchbox12-div {
+        flex: 1;
+        margin-left: 30px;
+      }
+      .download12 {
+        background-color: purple;
+        border: 1.5px solid white;
+        border-color: white;
+        color: white;
+        font-size: 15px;
+        border-radius: 5px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        cursor: pointer;
+      }
+      
+      
+      .home-search-download-flex {
+        display: flex;
+        flex-direction: row;
+        background-color: purple;
+        justify-content: space-between;
+        align-items: center;
+        width: 600px;
+        padding-left: 15px;
+        padding-right: 10px;
+      }
+      .facebookimage12 {
+        width: 52px;
+        height: 52px;
+        border-radius: 70px;
+        object-fit: cover;
+        margin-right: 10px;
+        
+        
+      }
+      .oliver12 {
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      
+      }
+      .cat12,
+      .popular12 {
+        color: rgb(96, 96, 96);
+        margin-top: 0px;
+        margin-bottom: 0px;
+        
+      }
+      .follow-button12 {
+        font-weight: bold;
+        color: white;
+        background-color: blue;
+        border: none;
+        border-radius: 3px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+        margin-left: 4px;
+        cursor: pointer;
+        box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.9);
+        transition: opacity 1.5s;
+      }
+      .follow-button12:hover {
+        opacity: 0.5;
+      }
+      .facebook-profile-info12 {
+        flex: 1;
+      }
+      .image-oliver-follow-flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-left: 12px;
+        padding-right: 12px;
+        width: 500px;
+        margin-bottom: 10px;
+      }
+      .oliver-mimi-rex-div {
+        
+        width: 524px;
+        padding-top: 12px;
+        border-radius: 6px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+        padding-bottom: 5px;
+      }
+
+      .inbox13 {
+        font-size: 14px;
+        color: rgb(96, 96, 96);
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0px;
+        margin-bottom: 15px;
+      }
+
+      .image13e {
+        width: 52px;
+        height: 52px;
+        border-radius: 70px;
+        object-fit: cover;
+        margin-right: 10px;
+      }
+      
+      .chewy-time {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px;
+        align-items: top;
+      }
+      .chewy13 {
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+      .time13 {
+        font-family: Arial;
+        margin: 0px;
+        font-size: 14px;
+        font-weight: bold;
+        color: rgb(96, 96, 96);
+      }
+      .biggest13 {
+        font-family: Arial;
+        font-weight: bold;
+        margin: 0px;
+        font-size: 16px;
+      }
+      .hey {
+        font-family: Arial;
+        font-size: 16px;
+        color: rgb(96, 96, 96);
+        margin: 0px;
+      }
+      .image13e-email-fonts-div {
+        display: grid;
+        grid-template-columns: 60px 1fr;
+        width: 400px;
+        margin-bottom: 10px;
+      }
+      .image-email-fonts-13-div {
+        padding-top: 8px;
+        padding-left: 12px;
+        border-radius: 6px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.9);
+        padding-bottom: 5px;
+        width: 410px;
+
+      }
+
+      
+     
